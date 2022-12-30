@@ -94,6 +94,9 @@ ul{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
     
 
 }
@@ -120,6 +123,9 @@ ul{
 .icon-contact{
     fill: #757575;
     margin-right: 10px;
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 
 }
 
@@ -170,6 +176,9 @@ ul{
     font-size: 14px;
     line-height: 1.14;  
     letter-spacing: 0.02em;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 .header-contact:hover,
 .header-contact:focus{
@@ -515,6 +524,9 @@ ul{
     background-color: #FFFFFF;
 
     border-radius: 50%;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 
 
 
@@ -523,9 +535,10 @@ ul{
 
 .icon-social{
     fill: #AFB1B8;
-
-
-    
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+ 
 }
 
 .icon-link:hover{
@@ -593,6 +606,13 @@ ul{
 
 
 
+
+}
+
+.compani-link:hover{
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 
 .compani-block{
@@ -607,23 +627,25 @@ ul{
 }
 
 .icon-compani{
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 
     fill: #AFB1B8;
 }
 
 .compani-block:hover{
     border-color: #2196f3;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 600ms;
     transition-property: border;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 
 }
 
 .compani-block:hover .icon-compani{
     fill: #2196f3;
-    transition-property: fill;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
+
+
 }
 
 /* Footer */
@@ -723,9 +745,7 @@ ul{
 
 .icon-social-footer{
     fill: #FFFFFF;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
-    transition-property: fill;
+
 }
 
 .icon-link-footer:hover{
@@ -792,6 +812,11 @@ ul{
     cursor: pointer;
     border-radius: 4px;
     border: none;
+
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+
 }
 
 .button-portfolio:hover,
